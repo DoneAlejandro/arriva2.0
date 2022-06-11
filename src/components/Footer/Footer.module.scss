@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  grid-area: footer;
+  background-color: #303030;
+  min-height: 95px;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+  position: relative;
+  z-index: 10000;
+}
+.team {
+  color: #fff;
+  margin-right: 30px;
+}
+.contact {
+  color: #fff;
+}
