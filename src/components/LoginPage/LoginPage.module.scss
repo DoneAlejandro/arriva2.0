@@ -1,0 +1,23 @@
+.loginBox {
+  background: linear-gradient(180deg, #000000 0%, #616161 100%);
+  opacity: 0.9;
+  position: fixed;
+  z-index: 100000;
+  width: 100vw;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginList {
+  display: flex;
+  height: 80vh;
+  flex-direction: column;
+  //   justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+}

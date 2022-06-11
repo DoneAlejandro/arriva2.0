@@ -10,6 +10,7 @@ import ContentMap from "./components/ContentMap/ContentMap";
 import Footer from "./components/Footer/Footer";
 import Team from "./components/Footer/Team/Team";
 import Contact from "./components/Footer/Contact/Contact";
+import LoginPage from "./components/LoginPage/LoginPage";
 
 function App() {
   return (
@@ -17,14 +18,14 @@ function App() {
       <header className="header">
         <NavBar />
         <Routes>
-          <Route path={"/"} element={<MainPage />}>
-            <Route path="/addtask" element={<AddTask />} />
-            <Route path="/filter" element={<Filter />} />
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/theme" element={<Theme />} />
-            <Route path="/team" element={<Team />} />
-            <Route path="/contact" element={<Contact />} />
-          </Route>
+          <Route path={"/"} element={<LoginPage />} />
+          <Route path="/mainpage" element={<MainPage />} />
+          <Route path="/addtask" element={<AddTask />} />
+          <Route path="/filter" element={<Filter />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/theme" element={<Theme />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </header>
       <ContentMap />
