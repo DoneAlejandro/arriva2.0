@@ -59,11 +59,52 @@
   padding: 9px;
   border-radius: 10px;
 }
+.inputNameBox {
+  margin-right: 34px;
+}
+.organizationBoxFirst {
+  display: flex;
+  margin-bottom: 24px;
+}
 .areaName {
+  padding: 9px;
+  border-radius: 10px;
+}
+.areaNumber {
   padding: 9px;
   border-radius: 10px;
 }
 .organizationBox {
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
+}
+.organizationBoxSecond {
+  display: flex;
+}
+.inputOrganizationBox {
+  margin-right: 34px;
+}
+.areaOrganization {
+  padding: 9px;
+  border-radius: 10px;
+}
+.areaMail {
+  padding: 9px;
+  border-radius: 10px;
+}
+.btnBox {
+  display: flex;
+  width: 100%;
+  left: 0;
+}
+.areaBtn {
+  display: flex;
+  text-align: center;
+  color: #515151;
+  padding: 15px;
+  background-color: #d8d8d8;
+  border-radius: 15px;
+  font-size: 30px;
+  align-self: flex-end;
 }

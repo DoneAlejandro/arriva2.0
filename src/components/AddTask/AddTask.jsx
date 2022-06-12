@@ -29,28 +29,50 @@ const AddTask = () => {
           <p className={styleOfAddTask.title}>Контакты организатора</p>
           <div>
             <div className={styleOfAddTask.organizationBox}>
-              <input
-                type="text"
-                name="name"
-                placeholder="ФИО"
-                className={styleOfAddTask.areaName}
-              />
-              <input
-                type="tel"
-                name="phone"
-                placeholder="+7(000)000-00-00"
-                className={styleOfAddTask.areaNumber}
-              />
-              <div>
-                <input type="text" placeholder="Организация" />
-                <input type="email" placeholder="E-mail" />
+              <div className={styleOfAddTask.organizationBoxFirst}>
+                <div className={styleOfAddTask.inputNameBox}>
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="ФИО"
+                    className={styleOfAddTask.areaName}
+                  />
+                </div>
+                <div className={styleOfAddTask.inputPhoneBox}>
+                  <input
+                    type="tel"
+                    name="phone"
+                    placeholder="+7(000)000-00-00"
+                    className={styleOfAddTask.areaNumber}
+                  />
+                </div>
+              </div>
+              <div className={styleOfAddTask.organizationBoxSecond}>
+                <div className={styleOfAddTask.inputOrganizationBox}>
+                  <input
+                    type="text"
+                    placeholder="Организация"
+                    className={styleOfAddTask.areaOrganization}
+                  />
+                </div>
+                <div className={styleOfAddTask.inputMailBox}>
+                  <input
+                    type="email"
+                    placeholder="E-mail"
+                    className={styleOfAddTask.areaMail}
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div>
-        <NavLink to="/mainpage">Далее</NavLink>
+        <div className={styleOfAddTask.btnBox}>
+          <NavLink to="/mainpage" className={styleOfAddTask.areaBtn}>
+            Далее
+          </NavLink>
+        </div>
       </div>
     </div>
   );
