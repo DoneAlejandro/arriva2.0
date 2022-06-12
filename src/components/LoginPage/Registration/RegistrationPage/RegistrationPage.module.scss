@@ -1,0 +1,62 @@
+.pageBox {
+  background: linear-gradient(180deg, #000000 0%, #616161 100%);
+  opacity: 0.9;
+  position: fixed;
+  z-index: 100000;
+  width: 100vw;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.areaItem:not(:last-child) {
+  margin-bottom: 80px;
+}
+
+.areaName {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  padding: 15px 0;
+  background-color: #d8d8d8;
+  border-radius: 15px;
+  font-size: 30px;
+}
+
+.areaNumber {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  padding: 15px 0;
+  background-color: #d8d8d8;
+  border-radius: 15px;
+  font-size: 30px;
+}
+
+.areaCode {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  padding: 15px 0;
+  background-color: #d8d8d8;
+  border-radius: 15px;
+  font-size: 30px;
+}
+
+.areaBtnBox {
+  margin-top: 80px;
+}
+.areaBtn {
+  display: flex;
+  text-align: center;
+  color: #515151;
+  padding: 15px;
+  background-color: #d8d8d8;
+  border-radius: 15px;
+  font-size: 30px;
+  align-self: flex-end;
+}

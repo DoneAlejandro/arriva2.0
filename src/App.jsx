@@ -11,6 +11,8 @@ import Footer from "./components/Footer/Footer";
 import Team from "./components/Footer/Team/Team";
 import Contact from "./components/Footer/Contact/Contact";
 import LoginPage from "./components/LoginPage/LoginPage";
+import RegistrationPage from "./components/LoginPage/Registration/RegistrationPage/RegistrationPage";
+import EnterPage from "./components/LoginPage/Enter/EnterPage/EnterPage";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
           <Route path="/theme" element={<Theme />} />
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/registrationpage" element={<RegistrationPage />} />
+          <Route path="/enterpage" element={<EnterPage />} />
         </Routes>
       </header>
       <ContentMap />
